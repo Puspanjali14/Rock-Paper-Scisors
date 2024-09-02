@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors </title>
+    <script src="script.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white flex items-center justify-center min-h-screen font-raleway">
+    <div class="bg-gray-800 p-8 rounded-lg shadow-lg text-center max-w-sm w-full">
+        <h1 class="text-3xl font-bold mb-6 font-press-start">Rock, Paper, Scissors</h1>
+        <div class="flex justify-around mb-8">
+            <button id="rock" class="choice bg-blue-600 p-4 rounded-full hover:bg-blue-500 transform transition-transform duration-200">
+                <i class="fas fa-hand-rock text-4xl"></i>
+            </button>
+            <button id="paper" class="choice bg-green-600 p-4 rounded-full hover:bg-green-500 transform transition-transform duration-200">
+                <i class="fas fa-hand-paper text-4xl"></i>
+            </button>
+            <button id="scissors" class="choice bg-red-600 p-4 rounded-full hover:bg-red-500 transform transition-transform duration-200">
+                <i class="fas fa-hand-scissors text-4xl"></i>
+            </button>
+        </div>
+        <div id="result" class="text-2xl font-semibold mb-4 font-raleway"></div>
+        <div id="score" class="text-lg font-raleway">Wins: 0 | Losses: 0 | Ties: 0</div>
+    </div>
+</body>
+</html>
